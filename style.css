@@ -1,0 +1,166 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: .5rem;
+}
+
+header h1 {
+  color: #adadad;
+  text-align: center;
+}
+
+#palabra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.letra-vacia {
+  display: inline-block;
+  width: 2rem;
+  height: 2.2rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin: 0 0.5rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#opciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.letra {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: white;
+  color: #333;
+  border: 2px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.letra:hover {
+  background-color: #ccc;
+}
+
+#instrucciones {
+  color: #7f7f7f;
+  text-align: center;
+  margin: 20px;
+}
+
+#aciertos {
+  color: #4b7a3f;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.incorrecta {
+  background-color: #ec4545;
+}
+
+.correcta {
+  background-color: #37c022;
+}
+
+.mensaje-felicitacion {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.mensaje-felicitacion h2 {
+  margin: 0 0 10px;
+  font-size: 2em;
+}
+
+.mensaje-felicitacion p {
+  margin: 0 0 20px;
+  font-size: 1.2em;
+}
+
+.boton-reiniciar {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.boton-reiniciar:hover {
+  background-color: #3E8E41;
+}
+
+.oculto {
+  display: none;
+}
+
+.pikachu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pikachu img {
+  width: 100px;
+}
+/*# sourceMappingURL=style.css.map */
